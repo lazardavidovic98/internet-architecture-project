@@ -1,0 +1,32 @@
+cable,device_a,port_a,device_b,port_b,dce
+serial,ISP,Serial0/0/0,R1,Serial0/0/1,R1
+copper,R2,GigabitEthernet0/1,R1,GigabitEthernet0/1,
+serial,R1,Serial0/3/0,R4,Serial0/0/0,R1
+serial,R2,Serial0/0/0,R5,Serial0/1/0,R2
+serial,R2,Serial0/0/1,R3,Serial0/0/0,R2
+copper,R5,GigabitEthernet0/1,SW1,FastEthernet0/24,
+copper,SW1,FastEthernet0/23,SW2,FastEthernet0/24,
+serial,ISP,Serial0/0/1,R6,Serial0/0/0,ISP
+copper,R6,GigabitEthernet0/1,R7,GigabitEthernet0/1,
+serial,R7,Serial0/1/0,R9,Serial0/0/0,R7
+serial,R7,Serial0/1/1,R8,Serial0/0/0,R7
+serial,R1,Serial0/0/0,R10,Serial0/0/0,R1
+serial,ISP,Serial0/1/0,R10,Serial0/1/0,ISP
+serial,R6,Serial0/0/1,R10,Serial0/0/1,R6
+copper,R10,GigabitEthernet0/0,R11,GigabitEthernet0/1,
+copper,R10,GigabitEthernet0/1,R12,GigabitEthernet0/1,
+copper,VLAN RAZVOJ,FastEthernet0,SW2,FastEthernet0/1,
+copper,VLAN MARKETING,FastEthernet0,SW2,FastEthernet0/4,
+copper,R7,GigabitEthernet0/0,LAN7,FastEthernet0,
+copper,LAN4,FastEthernet0,R4,GigabitEthernet0/0,
+copper,LAN5,FastEthernet0,R4,GigabitEthernet0/1,
+copper,LAN1,FastEthernet0,R1,GigabitEthernet0/0,
+copper,LAN2,FastEthernet0,R2,GigabitEthernet0/0,
+copper,LAN3,FastEthernet0,R3,GigabitEthernet0/0,
+copper,R8,GigabitEthernet0/0,LAN8,FastEthernet0,
+copper,R9,GigabitEthernet0/0,LAN9,FastEthernet0,
+copper,R9,GigabitEthernet0/1,LAN10,FastEthernet0,
+copper,R6,GigabitEthernet0/0,LAN6,FastEthernet0,
+copper,R11,GigabitEthernet0/0,LAN11,FastEthernet0,
+copper,R12,GigabitEthernet0/0,LAN12,FastEthernet0,
+copper,VLAN MENADZMENT,FastEthernet0,SW2,FastEthernet0/15,
