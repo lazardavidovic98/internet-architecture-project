@@ -26,6 +26,22 @@ This image shows the layout of the network in the project.
 - VLANs for Development, Marketing, and Management
 - Routing domains with internal and external routing protocols
 
+## Project Structure
+
+<!-- project-tree:start -->
+<p>
+<a href="https://github.com/LazarDavidovic98/internet-architecture-project" title="internet-architecture-project"><img src=".github/readme-tree/00.svg" alt="internet-architecture-project" align="top"></a><br>
+<a href="https://github.com/LazarDavidovic98/internet-architecture-project/blob/main/src/ai-project.pkt" title="src/ai-project.pkt"><img src=".github/readme-tree/01.svg" alt="src/ai-project.pkt — Packet Tracer topology (open this)" align="top"></a><br>
+<a href="https://github.com/LazarDavidovic98/internet-architecture-project/tree/main/doc" title="doc/"><img src=".github/readme-tree/02.svg" alt="doc/" align="top"></a><br>
+<a href="https://github.com/LazarDavidovic98/internet-architecture-project/blob/main/doc/Documentation.md" title="doc/Documentation.md"><img src=".github/readme-tree/03.svg" alt="doc/Documentation.md — addressing, routing, design decisions" align="top"></a><br>
+<a href="https://github.com/LazarDavidovic98/internet-architecture-project/blob/main/doc/Report.pdf" title="doc/Report.pdf"><img src=".github/readme-tree/04.svg" alt="doc/Report.pdf — final report" align="top"></a><br>
+<a href="https://github.com/LazarDavidovic98/internet-architecture-project/blob/main/doc/topology-overview-1.png" title="doc/topology-overview-1.png"><img src=".github/readme-tree/05.svg" alt="doc/topology-overview-1.png — full topology" align="top"></a><br>
+<a href="https://github.com/LazarDavidovic98/internet-architecture-project/blob/main/doc/topology-overview-2.png" title="doc/topology-overview-2.png"><img src=".github/readme-tree/06.svg" alt="doc/topology-overview-2.png — AS 200nn configuration" align="top"></a><br>
+</p>
+
+<sub>Every row is a link to that file or folder on GitHub. Purple: folders, green: source code, grey: configuration, data and docs.</sub>
+<!-- project-tree:end -->
+
 ## How to Run
 1. Open `ai-project` using Cisco Packet Tracer
 2. Verify routing tables and interfaces
